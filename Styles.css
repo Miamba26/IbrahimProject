@@ -12,15 +12,31 @@ h1 {
     font-family:monospace
 }
 
-h2 {
+.qualifications {
+    position: relative;
+    left: 20px;
+}
+
+.qualifications:hover {
+    background: #D3D3D3;
+}
+
+.qualifications:active {
+background: #C0C0C0;
+}
+
+.qualifications {
 display: inline-flex;
 height: 50px;
-padding: 0;
+padding: 5;
 background:	#DCDCDC
+border-box;
 border: none;
-outline: none;
 border-radius: 5px;
 overflow: hidden;
+font-family: monospace;
+font-size: 16px;
+font-weight: 500;
 cursor: pointer;
 }
 
