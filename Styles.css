@@ -12,11 +12,6 @@ h1 {
     font-family:monospace
 }
 
-.qualifications {
-    position: relative;
-    left: 20px;
-}
-
 .qualifications:hover {
     background: #D3D3D3;
 }
@@ -26,6 +21,8 @@ background: #C0C0C0;
 }
 
 .qualifications {
+position: relative;
+left: 20px;
 display: inline-flex;
 height: 50px;
 padding: 5;
