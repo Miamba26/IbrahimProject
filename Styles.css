@@ -3,6 +3,8 @@ body {
     padding: 0;
 }
 
+
+
 h1 {
     margin: 0;
     padding: 0;
@@ -10,6 +12,11 @@ h1 {
     background-color: #333;
     color: white;
     font-family:monospace
+}
+
+.grid-container {
+    display: grid;
+    
 }
 
 .qualifications:hover {
@@ -21,11 +28,7 @@ background: #C0C0C0;
 }
 
 .qualifications {
-position: relative;
-left: 20px;
-display: inline-flex;
 height: 50px;
-padding: 5;
 background:	#DCDCDC
 border-box;
 border: none;
@@ -38,3 +41,48 @@ cursor: pointer;
 }
 
 
+
+.workexperience:hover{
+    background: #D3D3D3;
+}
+
+.workexperience:active{
+    background: #C0C0C0;
+}
+
+.workexperience {
+height: 50px;
+background:	#DCDCDC
+border-box;
+border: none;
+border-radius: 5px;
+overflow: hidden;
+font-family: monospace;
+font-size: 16px;
+font-weight: 500;
+cursor: pointer;
+}
+
+
+
+.awards:hover {
+    background: #D3D3D3;
+}
+
+.awards:active {
+    background: #C0C0C0;
+}
+
+
+.awards {
+height: 50px;
+background:	#DCDCDC
+border-box;
+border: none;
+border-radius: 5px;
+overflow: hidden;
+font-family: monospace;
+font-size: 16px;
+font-weight: 500;
+cursor: pointer;
+}
