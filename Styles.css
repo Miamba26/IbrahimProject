@@ -11,12 +11,15 @@ h1 {
     height: 75px;
     background-color: #333;
     color: white;
+    text-align: center;
     font-family:monospace
 }
 
 .grid-container {
     display: grid;
-    
+    padding-left: 275px;
+    grid-template-columns: repeat(3, 200px);
+    column-gap: 375px;
 }
 
 .qualifications:hover {
