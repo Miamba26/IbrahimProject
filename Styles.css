@@ -3,11 +3,8 @@ body {
     padding: 0;
 }
 
-
-
 h1 {
     margin: 0;
-    padding: 0;
     height: 75px;
     background-color: #333;
     color: white;
@@ -15,77 +12,42 @@ h1 {
     font-family:monospace
 }
 
-.grid-container {
-    display: grid;
-    padding-left: 275px;
-    grid-template-columns: repeat(3, 200px);
-    column-gap: 375px;
+.container {
+    text-align: center;
 }
 
-.qualifications:hover {
-    background: #D3D3D3;
+.btn {
+    border: 1px solid #DCDCDC;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    margin: 150px;
+    color: #000;
+    border-radius: 5px;
+    transition: 0.4s;
+    position: relative;
+    overflow: hidden;
 }
 
-.qualifications:active {
-background: #C0C0C0;
+.btn:hover {
+    color: #000;
 }
 
-.qualifications {
-height: 50px;
-background:	#DCDCDC
-border-box;
-border: none;
-border-radius: 5px;
-overflow: hidden;
-font-family: monospace;
-font-size: 16px;
-font-weight: 500;
-cursor: pointer;
+.btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 180%;
+    background: #DCDCDC;
+    z-index: -1;
+    transition: 0.4s;
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
 }
 
-
-
-.workexperience:hover{
-    background: #D3D3D3;
-}
-
-.workexperience:active{
-    background: #C0C0C0;
-}
-
-.workexperience {
-height: 50px;
-background:	#DCDCDC
-border-box;
-border: none;
-border-radius: 5px;
-overflow: hidden;
-font-family: monospace;
-font-size: 16px;
-font-weight: 500;
-cursor: pointer;
-}
-
-
-
-.awards:hover {
-    background: #D3D3D3;
-}
-
-.awards:active {
-    background: #C0C0C0;
-}
-
-
-.awards {
-height: 50px;
-background:	#DCDCDC
-border-box;
-border: none;
-border-radius: 5px;
-overflow: hidden;
-font-family: monospace;
-font-size: 16px;
-font-weight: 500;
-cursor: pointer;
+.btn:hover::before {
+    height: 0%;
 }
