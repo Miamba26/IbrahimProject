@@ -1,56 +1,24 @@
 body {
     margin: 0;
+    padding: 0%;
 }
 
-.title {
+.header {
     background-color: #333;
     padding: 3rem;
     color: white;
     text-align: center;
     font-family:monospace;
     font-size: 35px;
+    margin-top:auto
 }
 
-.container {
+.contacts {
+    font-size: 15px;
     text-align: center;
+    margin-top: 10px
 }
 
-.btn {
-    border: 1px solid #DCDCDC;
-    background: none;
-    padding: 10px 20px;
-    font-size: 20px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    cursor: pointer;
-    color: #000;
-    margin: 150px;
-    border-radius: 5px;
-    transition: 0.4s;
-    position: relative;
-    overflow: hidden;
-}
-
-.btn:hover {
-    color: #000;
-}
-
-.btn::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 180%;
-    background: #DCDCDC;
-    z-index: -1;
-    transition: 0.4s;
-    bottom: 0;
-    border-radius: 50% 50% 0 0;
-}
-
-.btn:hover::before {
-    height: 0%;
-}
-
-.dropdown {
-    position: relative;
+h1 {
+    margin-top: auto;
 }
