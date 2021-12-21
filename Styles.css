@@ -3,22 +3,33 @@ body {
     padding: 0%;
 }
 
+h1 {
+    margin-top: auto;
+}
+
 .header {
     background-color: #333;
     padding: 3rem;
     color: white;
     text-align: center;
     font-family:monospace;
-    font-size: 35px;
+    font-size: 55px;
     margin-top:auto
 }
 
 .contacts {
-    font-size: 15px;
+    font-size: 25px;
     text-align: center;
     margin-top: 10px
 }
 
-h1 {
-    margin-top: auto;
+.categories {
+    text-align: center;
+    font-family: monospace;
+    font-size: 35px;
+}
+
+.content {
+    text-align: center;
+    font-family: monospace;
 }
