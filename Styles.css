@@ -60,6 +60,14 @@ ul {
     animation: transitionIN 4s;
 }
 
+h3 {
+    background-color: #333;
+    padding: 1em;
+    font-family: monospace;
+    color: white;
+    text-align: center;
+}
+
 @keyframes transitionIN {
     from {
         opacity: 0;
