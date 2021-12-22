@@ -3,61 +3,79 @@ body {
     padding: 0%;
 }
 
-
-h1 {
-    margin-top: auto;
-    animation: transitionIN 1s;
+a {
+color: #DCDCDC;
 }
 
+a:hover {
+    color: white;
+}
 
 .header {
     background-color: #333;
     padding: 3rem;
-    color: white;
+    color: #DCDCDC;
     text-align: center;
     font-family:monospace;
-    font-size: 55px;
-    margin-top:auto;
     animation: transitionIN 1s;
     border-radius: 0px 0px 30px 30px;
 }
 
-.contacts {
+.header-title {
+    font-size: 55px;
+}
+
+.header-contacts {
     font-size: 25px;
     text-align: center;
     margin-top: 10px;
     animation: transitionIN 1.5s;
 }
 
-.categories {
+.content {
+    margin-top: 20px;
     text-align: center;
     font-family: monospace;
-    font-size: 35px;
+}
+
+.category {
+    text-align: center;
+}
+
+.category-title {
+    font-family: monospace;
     background-color: #DCDCDC;
     border-style: dashed;
     border-color: black;
     border-radius: 30px;
     animation: transitionIN 3s;
+    font-size: 35px;
 }
 
-.content {
-    text-align: center;
-    font-family: monospace;
+.category-title:hover {
+    background-color: #69bbee;
+}
+
+.category-qualifications
+{
+    animation: transitionIN 7s;
 }
 
 table {
-    text-align: center;
+    text-align: left;
     font-family: monospace;
     margin-left: auto;
     margin-right: auto;
     animation: transitionIN 4s;
 }
 
+
 ul {
-    list-style: none;
-    text-align: center;
+    text-align: left;
     font-family: monospace;
     animation: transitionIN 4s;
+    width: 500px; 
+    margin: 0 auto;
 }
 
 h3 {
