@@ -43,11 +43,11 @@ a:hover {
     margin-bottom: 20px;
     font-family: monospace;
     border-style: dashed;
-    border-color: #DCDCDC;
+    border-color: #fff;
     border-radius: 30px;
     font-size: 35px;
     text-align: center;
-    color: #000;
+    color: #333;
     cursor: pointer;
     transition: 0.8s;
     position: relative;
@@ -56,7 +56,9 @@ a:hover {
 }
 
 .category-title:hover {
-    color: #000;
+    color: #333;
+    border-color: #333;
+    border-style: dashed;
 }
 
 .category-title::before {
@@ -90,14 +92,14 @@ a:hover {
 }
 
 .qualifications-table thead{
-    color: blue;
+    color: #333;
     font-size: 20px;
     font-weight: bold;
     text-decoration: underline;
 }
 
 .qualifications-table tbody{
-    color: green;
+    color: #333(109, 104, 104);
 }
 
 .workexperience-table {
