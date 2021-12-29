@@ -135,6 +135,7 @@ ul {
     margin-top: 20px;
     text-decoration: underline;
     animation: transitionIN 9s;
+    border-radius: 50% 50% 0 0;
 }
 
 @keyframes transitionIN {
