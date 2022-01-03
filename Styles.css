@@ -167,8 +167,8 @@ a:hover {
 
 @keyframes fade {
     from {
-    opacity: 0;
-    transition: translateY(-10px);
+        opacity: 0;
+        transition: translateY(-10px);
     }
     to {
         opacity: 1;
