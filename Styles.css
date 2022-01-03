@@ -121,14 +121,13 @@ a:hover {
 /* -------------- */
 
 .workexperience-table {
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
     animation: transitionIN 5.5s;
 }
 
-.workexperience-table thead {
-    text-decoration: underline;
-}
+/* awards */
+/* ------ */
 
 .awards-list {
     text-align: left;
