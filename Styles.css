@@ -11,6 +11,9 @@ a:hover {
     color: white;
 }
 
+/* header */
+/* ------ */
+
 .header {
     background-color: #333;
     padding: 3rem;
@@ -32,6 +35,9 @@ a:hover {
     margin-top: 10px;
     animation: transitionIN 4s;
 }
+
+/* category */
+/* -------- */
 
 .category {
     text-align: center;
@@ -79,9 +85,8 @@ a:hover {
     height: 0%;
 }
 
-.category:hover>.category-content{
+.category:hover > .category-content{
     background: #E8E8E8;
-    animation: fade 1s ease-in-out;
 }
 
 .category-content {
@@ -90,6 +95,10 @@ a:hover {
     font-size: 15px;
     border-radius: 100px;
 }
+
+
+/* qualifications */
+/* -------------- */
 
 .qualifications-table{
     margin-left: auto;
@@ -108,23 +117,28 @@ a:hover {
     color: #333(109, 104, 104);
 }
 
+/* workexperience */
+/* -------------- */
+
 .workexperience-table {
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
     animation: transitionIN 5.5s;
 }
 
-.workexperience-table thead {
-    text-decoration: underline;
-}
+/* awards */
+/* ------ */
 
-ul {
+.awards-list {
     text-align: left;
     font-family: monospace;
     width: 500px; 
     margin: 0 auto;
     animation: transitionIN 6s;
 }
+
+/* footer */
+/* ------ */
 
 .footer {
     background-color: #333;
@@ -133,7 +147,6 @@ ul {
     color: white;
     text-align: center;
     margin-top: 20px;
-    text-decoration: underline;
     animation: transitionIN 9s;
     border-radius: 50% 50% 0 0;
 }
@@ -144,17 +157,6 @@ ul {
         transition: translateY(-10px);
     }
 
-    to {
-        opacity: 1;
-        transition: translateY(0px);
-    }
-}
-
-@keyframes fade {
-    from {
-    opacity: 0;
-    transition: translateY(-10px);
-    }
     to {
         opacity: 1;
         transition: translateY(0px);
