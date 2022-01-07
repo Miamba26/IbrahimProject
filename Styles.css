@@ -1,8 +1,63 @@
+body {
+    margin: 0;
+    padding: 0%;
+}
+
+a {
+color: #DCDCDC;
+}
+
+a:hover {
+    color: white;
+}
+
+/* header */
+/* ------ */
+
+.header {
+    background-color: #333;
+    padding: 3rem;
+    color: #DCDCDC;
+    text-align: center;
+    font-family:monospace;
+    border-radius: 0px 0px 30px 30px;
+    animation: transitionIN 1s;
+}
+
+.header-title {
+    font-size: 55px;
+    animation: transitionIN 3s;
+}
+
+.header-contacts {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    animation: transitionIN 4s;
+}
+
+/* cards */
+/* ------ */
+
 .content {
     display: grid;
     justify-content: center;
 }
 
+.card-header {
+    text-align: center;
+    font-size: 40px
+}
+
 .category {
-padding-bottom: 50px;
+padding-top: 30px;
+}
+
+.qualifications-table {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.grades {
+padding: 5px;
 }
