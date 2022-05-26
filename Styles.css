@@ -65,9 +65,13 @@
 }
 
 #link {
-    color:white;
+    color: #dee2e600;
 }
 
-#link:hover{
-    color:white;
+#link:hover {
+    color: #dee2e600;
+}
+
+.btn {
+    margin-left: 35px;
 }
